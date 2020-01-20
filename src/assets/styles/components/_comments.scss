@@ -1,0 +1,13 @@
+.comment-list {
+  .comment-item {
+    &:not(:first-child) {
+      margin-top: 25px;
+    }
+  }
+}
+
+.comment-item {
+  .metadata {
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,42 @@
+.news-card {
+  .card-content {
+    display: flex;
+    align-items: center;
+
+    .score {
+      font-weight: bold;
+      font-size: 16px;
+      color: $primary-color;
+      width: 80px;
+      text-align: center;
+    }
+
+    .title {
+      line-height: 20px;
+      margin-bottom: 5px;
+
+      a {
+        color: $text-default;
+        text-decoration: none;
+      }
+    }
+
+    .metadata {
+      color: $text-secondary;
+      font-size: 13px;
+
+      a {
+        color: $text-secondary;
+
+        &:hover {
+          color: $primary-color;
+        }
+      }
+    }
+
+    .site {
+      color: $text-secondary;
+      font-size: 13px;
+    }
+  }
+}

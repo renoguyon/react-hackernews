@@ -1,0 +1,21 @@
+@import "palette";
+@import "components/news-list";
+@import "components/news-card";
+@import "components/item-view";
+@import "components/comments";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-bar {
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
